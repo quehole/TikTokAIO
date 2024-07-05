@@ -52,7 +52,7 @@ def loop2():
         sleep(10)
         hearts = driver.find_element_by_xpath('//*[@id="c2VuZE9nb2xsb3dlcnNfdGlrdG9r"]/span').text
         sleep(55)
-        print(hearts," Success delivered! Thank me with a $ 1 donation on GitHub")
+        print(hearts," Success delivered!")
         sleep(100)
         driver.refresh()
         sleep(200)
